@@ -1,0 +1,4 @@
+{
+  "name": "Simple starter workflow sample",
+  "description": "This starter workflow prints a greeting to the person triggering the workflow"
+}
