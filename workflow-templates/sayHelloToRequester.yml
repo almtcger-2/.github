@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Print greeting
         run: |
-          echo '${{ inputs.greeting }}, ${{ github.actor }}'
+          echo '${{ github.event.inputs.greeting }}, ${{ github.actor }}'
